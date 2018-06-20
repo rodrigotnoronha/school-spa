@@ -1,0 +1,56 @@
+/*
+* @author: leandro <henrique@henriquereis.com>
+* @date:   2016-10-23 10:56:48
+* @last modified by:   Leandro Henrique Reis
+* @last modified time: 2016-12-03 22:20:09
+*/
+
+
+.chat {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999999999999;
+}
+
+.chat-hide {
+  float: right;
+  width: 100px;
+  padding: 0rem;
+  margin-top: 250px;
+  bottom: 0px;
+}
+
+.chat-active {
+  float: right;
+  width: 400px;
+  min-height: 250px;
+  max-height: 350px;  
+  display: inline-block;
+  
+  background: #f3f3f3;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  border-sizing: border-box;
+  right: 10px;
+}
+
+.chat-bottom {
+  float: bottom;
+  vertical-align: bottom;
+}
+
+.chat-title {
+  font: Aial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.chat-content {
+  height: 200px;
+  max-height: 200px;
+  display: inline-block;
+  overflow-y: auto;
+}
+/*# sourceMappingURL=app.css.map */

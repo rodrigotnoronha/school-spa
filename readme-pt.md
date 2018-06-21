@@ -2,12 +2,10 @@
 
 [Instruções em inglês](https://github.com/emtudo/school-spa/blob/master/readme.md)
 
-## Screenshot
-
-[![Sreenshot dashboard](https://raw.githubusercontent.com/emtudo/school-spa/master/screenshots/dashboard.jpg)](https://raw.githubusercontent.com/emtudo/school-spa/master/screenshots/dashboard.jpg)
-
 ## Objetivo
  - Interface para utilização da [School-API](https://github.com/emtudo/school-api)
+
+ - [School-SPA](https://github.com/emtudo/school-spa) é uma interface para [School-API](https://github.com/emtudo/school-api), sistema para gerenciamento de multi escolas, com vários tipos de acessos.
 
 ## Como instalar
 
@@ -31,3 +29,13 @@ npm run build
 ```shell
 npm run dev
 ```
+
+## Como contribuir?
+Contato no Telegram (@emtudo), Github Issues, PRs
+
+## GitHub Account
+https://github.com/emtudo
+
+## Screenshot
+
+[![Sreenshot dashboard](https://raw.githubusercontent.com/emtudo/school-spa/master/screenshots/dashboard.jpg)](https://raw.githubusercontent.com/emtudo/school-spa/master/screenshots/dashboard.jpg)

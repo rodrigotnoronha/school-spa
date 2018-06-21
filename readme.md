@@ -7,6 +7,7 @@
 
 ## How to install
 
+[Installation video in Portuguese](https://www.youtube.com/watch?v=C5-4eAOLU5c)
 [Video demo in portuguese](https://www.youtube.com/watch?v=QXI84A-QnUA&t=136s)
 
 ```shell

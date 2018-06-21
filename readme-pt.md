@@ -9,6 +9,7 @@
 
 ## Como instalar
 
+[Vídeo de instalação](https://www.youtube.com/watch?v=C5-4eAOLU5c)
 [Vídeo demonstração](https://www.youtube.com/watch?v=QXI84A-QnUA&t=136s)
 
 ```shell

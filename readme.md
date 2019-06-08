@@ -14,19 +14,19 @@
 git clone https://github.com/emtudo/school-spa
 cd school-spa
 cp config/common.env.js-dist config/common.env.js
-npm install
+yarn
 ```
 
 Configure the `config/common.env.js` file with the API address (I'm assuming you've already installed the API)
 
 ```shell
-npm run build
+yarn build
 ```
 
 ## How to test
 
 ```shell
-npm run dev
+yarn dev
 ```
 
 ## How to contribute?

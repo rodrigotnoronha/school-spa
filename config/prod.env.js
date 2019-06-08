@@ -1,5 +1,5 @@
 var merge = require('webpack-merge')
-var common = require('./common.env')
+var common = require('./import-common')
 
 module.exports = merge({
   API_URL: '"http://localhost:8000/"',

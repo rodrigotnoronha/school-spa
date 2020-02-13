@@ -21,7 +21,7 @@ const routes = [...app]
 const router = new VueRouter({
   routes,
   linkActiveClass: 'active',
-  mode: 'history'
+  mode: 'hash'
 })
 
 // setup a before each for routes.

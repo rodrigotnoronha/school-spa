@@ -26,7 +26,7 @@ export default {
     return true
   },
   prepareSave (user) {
-    user.id = get(this.$route.params, 'id', 'me')
+    user.id = get(this.$route.params, 'id')
     user.birthdate = dateToIso(user.birthdate)
 
     return user

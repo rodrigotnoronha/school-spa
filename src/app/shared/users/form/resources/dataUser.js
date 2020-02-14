@@ -26,8 +26,8 @@ export default (data = {}) => ({
   country_register: null,
 
   state_register: null,
-  state_register_state: 'SP',
-  state_register_entity: 'SSP/SP',
+  state_register_state: 'PB',
+  state_register_entity: 'SSP/PB',
   password: null,
   password_confirmation: null,
   sex: null,

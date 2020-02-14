@@ -10,14 +10,14 @@ export default (data = {}) => ({
   profiles: {
     manager: false,
     student: false,
-    resposnable: false,
+    responsible: false,
     teacher: false
   },
 
   have_profiles: {
     manager: false,
     student: false,
-    resposnable: false,
+    responsible: false,
     teacher: false
   },
 
@@ -26,8 +26,8 @@ export default (data = {}) => ({
   country_register: null,
 
   state_register: null,
-  state_register_state: 'PB',
-  state_register_entity: 'SSP/PB',
+  state_register_state: null,
+  state_register_entity: null,
   password: null,
   password_confirmation: null,
   sex: null,

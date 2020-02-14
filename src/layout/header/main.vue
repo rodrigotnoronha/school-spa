@@ -31,7 +31,7 @@ export default {
         | ch
       // logo for regular state and mobile devices
       span.logo-lg
-        b School
+        b Inicio
     nav.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
       brand(@toggle="onToggleMenu")
       .collapse.navbar-collapse(:class="{ in: isOpen }")

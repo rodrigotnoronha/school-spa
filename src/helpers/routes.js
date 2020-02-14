@@ -1,6 +1,6 @@
 // dependencies.
 import { map, get, assign, toString } from 'lodash'
-const defaultTitle = 'Escola Municipal'
+const defaultTitle = 'Escola Online'
 
 export const meta = (title = defaultTitle, auth = true, role = 'guest', full = false, staff = false) => {
   if (title !== defaultTitle) {

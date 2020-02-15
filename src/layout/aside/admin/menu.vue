@@ -4,7 +4,7 @@ import { mapGetters } from 'vuex'
 export default {
   name: 'admin-menu',
   computed: {
-    ...mapGetters(['userIsAdmin'])
+    ...mapGetters(['userIsAdmin', 'userIsMaster'])
   }
 }
 </script>
@@ -62,7 +62,7 @@ ul.sidebar-menu(data-widget='tree')
         a(href='#')
           i.fa.fa-circle-o
           |  Provas e Trabalhos
-  router-link(tag="li", :to="{name: 'school.schools.index'}")
+  router-link(v-if="userIsMaster", tag="li", :to="{name: 'school.schools.index'}")
     a(href='#')
       i.fa.fa-institution
       span Escolas

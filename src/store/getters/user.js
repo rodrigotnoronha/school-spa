@@ -17,6 +17,8 @@ export const userEmail = ({ user }) => get(user, 'email') // current user email
 // current user role
 export const userIsAdmin = ({ user }) => get(user, 'is_admin', false)
 
+export const userIsMaster = ({ user }) => get(user, 'master', false)
+
 // current user profile (for the current tenant).
 export const userIsResponsible = ({ user }) => get(user, 'have_profiles.responsible', false) || get(user, 'profiles.responsible', false)
 export const userIsStudent = ({ user }) => get(user, 'have_profiles.student', false) || get(user, 'profiles.student', false)

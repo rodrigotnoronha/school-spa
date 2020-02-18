@@ -40,11 +40,11 @@ export default {
             // /.box-header
             .box-body.table-responsive.no-padding
               .col-sm-12
-                table.table.table-hover#tabela
+                table.table.table-striped#tabela
                   tr
                     th(v-for="column in getColumns") {{ column }}
                     th(v-if="buttonSelect")
-                    th.text-right(v-if="!noActions") Ações
+                    th(v-if="!noActions") Ações
                   item(@on-selected="onSelected",
                     :button-select="buttonSelect",
                     :no-actions="noActions",

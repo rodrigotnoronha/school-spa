@@ -1,5 +1,5 @@
 import { map } from 'lodash'
-import confirmation from '@/helpers/confirmation'
+// import confirmation from '@/helpers/confirmation'
 
 export default {
   getItem (id) {
@@ -43,13 +43,11 @@ export default {
       ...this.getMessageConfirmation
     }
 
-    confirmation(confirm => {
-      if (!confirm) {
-        return
-      }
+    const deleta = confirm(message.message)
 
+    if (deleta) {
       this.doDeleteWithoutConfirmation(item)
-    }, message.title, message.label, message.message, message.cancel)
+    }
   },
   doDeleteWithoutConfirmation (item) {
     this.currentEntity = item

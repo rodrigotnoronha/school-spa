@@ -44,6 +44,6 @@ export default {
       button.btn.btn-primary.pull-right(@click.prevent="doSelect(item)") Selecionar
     td(v-if="!noActions")
       slot
-      a.btn.btn-circle-micro.btn-danger(v-if="!noDelete", @click.prevent="doDelete(item)")
+      a.btn.btn-circle-micro.btn-danger(@click.prevent="doDelete(item)")
         span.fa.fa-close
 </template>

@@ -38,6 +38,10 @@ ul.sidebar-menu(data-widget='tree')
       span.pull-right-container
         i.fa.fa-angle-left.pull-right
     ul
+      router-link(tag="li", :to="{name: 'school.courses.courses.index'}")
+        a(href='#')
+          i.fa.fa-circle-o
+          |  Cursos
       router-link(tag="li", :to="{name: 'school.courses.groups.index'}")
         a(href='#')
           i.fa.fa-circle-o

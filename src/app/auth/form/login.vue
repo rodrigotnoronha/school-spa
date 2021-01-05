@@ -77,6 +77,9 @@ export default {
 <template lang="pug">
   .row(v-if="!isLogged")
     .login-box
+      .login-box-header
+        a(target='blank' href='https://www.didaticaef.com.br/')
+          img(src='/static/img/logo.png', alt='Didática EF')
       .login-box-body
         form(@submit.prevent="doLogin()")
           p.login-box-msg Entre com seus dados

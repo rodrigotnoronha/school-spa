@@ -17,3 +17,9 @@
   line-height: 0.1 !important;
   border-radius: 30px !important;
 }
+
+.login-box-header img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
